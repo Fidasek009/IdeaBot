@@ -77,6 +77,7 @@ def table(data: list):
     return t
 
 
+# -------------------------AUTOCOMPLETE-------------------------
 async def name_autocomplete(interaction: discord.Interaction, currnet: str):
     result = await sql_fetch(f"SELECT name FROM ideas WHERE name LIKE '%{currnet}%'")
     names = []
