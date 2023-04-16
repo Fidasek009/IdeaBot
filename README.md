@@ -6,6 +6,7 @@ a discord bot for keeping track of our ideas and creating projects
   - a database called `IdeaBot`
   - a table called `ideas`
 - You need to edit the .env file to correspond to your environment
+- to run the python script in background just use: `nohup python3 ./main.py > run.log &`
 
 
 ### table `ideas` in the `IdeaBot` database
