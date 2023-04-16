@@ -1,5 +1,5 @@
 # IdeaBot
-a discord bot for keeping track of our ideas
+a discord bot for keeping track of our ideas and creating projects
 
 ## How to use
 - You need MySQL running on your server
